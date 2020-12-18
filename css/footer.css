@@ -1,0 +1,154 @@
+.myFooter {
+  overflow: hidden;
+}
+
+.myFooter h4 {
+  color: #ffffff;
+  font-family: TTCommons-Regular;
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.myFooter h6 {
+  color: #ffffff;
+  font-family: TTCommons-Regular;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-top: 200px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+form {
+  width: 80%;
+  margin-left: 10%;
+  margin-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+form span {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: -400px;
+  color: #e9966f;
+}
+
+input {
+  width: 600px;
+  height: 40px;
+  font-family: TTCommons-Regular;
+  font-size: 16px;
+  margin-top: 22px;
+  padding: 6px;
+  background-color: transparent;
+  border-bottom: 1px solid #abaeb1;
+  color: #ffffff;
+}
+
+textarea {
+  width: 600px;
+  height: 60px;
+  font-family: TTCommons-Regular;
+  font-size: 16px;
+  margin-top: 22px;
+  padding: 6px;
+  background-color: transparent;
+  border-bottom: 1px solid #abaeb1;
+  color: #ffffff;
+}
+
+.myFooter button {
+  font-family: HelveticaNeueCyr-Thin;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 2px 8px 2px 8px;
+  margin-top: 40px;
+  background: none;
+}
+
+.myFooter button:hover {
+  background-color: #fde231;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  color: #000000;
+}
+
+.myFooter button:active {
+  background-color: #d11717;
+}
+
+.myFooter button:focus {
+  background-color: #d11717;
+}
+
+.myFooter ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 110px;
+}
+
+.myFooter ul img {
+  width: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.myFooter ul img:hover {
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+  background: #d11717;
+  -webkit-transition-duration: 1.2s;
+          transition-duration: 1.2s;
+}
+
+.myFooter p {
+  font-family: TTCommons-Regular;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #abaeb1;
+  padding: 6px 6px 0px 6px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.myFooter-hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 1060px) {
+  .myFooter h4,
+  .myFooter h6 {
+    width: 70%;
+    margin-left: 17%;
+    margin-right: 13%;
+    text-align: right;
+  }
+  input, textarea {
+    width: 86%;
+    margin-left: 9%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 770px) {
+  form span {
+    margin-left: -40%;
+  }
+}
