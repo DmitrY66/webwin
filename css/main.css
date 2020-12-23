@@ -4,11 +4,10 @@ header {
   height: 100vh;
   min-height: 800px;
   background-color: #F8F8F8;
-  background-image: url(../img/header_back_tropic2_4.png);
+  background-image: url(../img/header_back_gorod.jpg);
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: 1200px;
-  background-position: 50% 50%;
+  background-position: center;
   background-origin: content-box;
 }
 
